@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-HK">
+      <head>
+        <link rel="stylesheet" href="/zhangxi/restore.css?v=2" />
+      </head>
       <body>{children}</body>
     </html>
   );
